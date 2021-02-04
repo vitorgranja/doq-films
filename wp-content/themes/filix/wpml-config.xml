@@ -1,0 +1,20 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">portfolio_attributes</custom-field>
+        <custom-field action="translate">attribute_title</custom-field>
+        <custom-field action="translate">attribute_value</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="filix_opt">
+            <key name="main_text_logo" />
+            <key name="menu_btn_label" />
+            <key name="apply_btn_title" />
+            <key name="footer_heading" />
+            <key name="footer_copyright" />
+            <key name="blog_title" />
+            <key name="blog_sub_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

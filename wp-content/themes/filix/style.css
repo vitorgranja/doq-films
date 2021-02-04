@@ -1,0 +1,402 @@
+/*!
+Theme Name: Filix
+Theme URI: https://droitthemes.com/wp/filix
+Author: DroitThemes
+Author URI: https://themeforest.net/user/droitthemes
+Description: Filix is an elegant and minimal personal Creative Portfolio WordPress theme. It is built upon some fresh, clean, creative, modern and unique designs and can be used for personal portfolio and even as portfolio website of digital agencies.
+Version: 1.2.5
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: filix
+*/
+
+/** === Request Form === **/
+.catagory_single_item .wpcf7-list-item {
+    margin: 0 20px 0 0;
+    display: inline-block;
+}
+
+.catagory_single_item .wpcf7-list-item input {
+    display: none;
+}
+.catagory_single_item .wpcf7-list-item span.wpcf7-list-item-label {
+    display: block;
+    color: #ff3366;
+    border: 1px solid #ff3366;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px 35px;
+    width: 100%;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-bottom: 15px;
+}
+.catagory_single_item .wpcf7-list-item input:checked + span.wpcf7-list-item-label {
+    background: #ff3366;
+    color: #fff;
+}
+.catagory_single_item {
+    margin-bottom: 22px;
+}
+.appz_catagory_single .catagory_item input.cat_input:checked + label {
+    background: #ff3366;
+    color: #fff;
+}
+input.wpcf7-form-control.wpcf7-submit.btn.send_btn {
+    margin-top: 0px;
+}
+.catagory_title {
+    font-weight: 400;
+}
+
+/** === Job Listing Pagination === **/
+.nav-links {
+    padding: 60px 0;
+    text-align: center;
+}
+.job_listing .pagination .nav-links .page-numbers.current {
+    color: #fff;
+    background: #333333;
+}
+.job_listing .pagination .nav-links .page-numbers {
+    border-radius: 0;
+    border: transparent;
+    background: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+/** === Job Apply Form === **/
+.job_apply_area.sec_pad {
+    padding: 120px 0;
+}
+.apply_form .btn_three {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(315deg, #292929 50%, transparent 50%);
+    background-image: -o-linear-gradient(315deg, #292929 50%, transparent 50%);
+    background-image: linear-gradient(135deg, #292929 50%, transparent 50%);
+    background-size: 300% 300%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    padding: 15px 55px;
+    cursor: pointer;
+    border: 1px solid #292929;
+    display: inline-block;
+    margin-top: 50px;
+}
+.apply_form .btn_three:hover {
+    background-size: 0px 50px;
+    background-position: -50px -50px;
+    color: #292929;
+}
+.apply_form p a {
+    font-weight: 400;
+}
+.apply_form input[type="text"]::-webkit-input-placeholder, .apply_form textarea::-webkit-input-placeholder, .apply_form .selectpickers::-webkit-input-placeholder, .apply_form input[type="tel"]::-webkit-input-placeholder, .apply_form input[type="email"]::-webkit-input-placeholder {
+    color: #9ca3b9; }
+.apply_form input[type="text"]:-ms-input-placeholder, .apply_form textarea:-ms-input-placeholder, .apply_form .selectpickers:-ms-input-placeholder, .apply_form input[type="tel"]::placeholder, .apply_form input[type="email"]:-ms-input-placeholder {
+    color: #9ca3b9; }
+.apply_form input[type="text"]::-ms-input-placeholder, .apply_form textarea::-ms-input-placeholder, .apply_form .selectpickers::-ms-input-placeholder, .apply_form input[type="tel"]::placeholder, .apply_form input[type="email"]::-ms-input-placeholder {
+    color: #9ca3b9; }
+.apply_form input[type="text"]::placeholder, .apply_form textarea::placeholder, .apply_form .selectpickers::placeholder, .apply_form input[type="tel"]::placeholder, .apply_form input[type="email"]::placeholder {
+    color: #9ca3b9; }
+
+
+
+/** === Job Details === **/
+.job_details_area {
+    padding: 120px 0;
+}
+.job_details_area h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #171819;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.job_details_area p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #909090;
+    margin-bottom: 45px;
+    font-family: "Poppins", sans-serif;
+}
+.job_details_area ul li {
+    position: relative;
+    padding-left: 36px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #909090;
+    margin-bottom: 20px;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+.job_details_area ul li:before {
+    content: "\e628";
+    font-family: 'themify';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ff3366;
+}
+.details_content ul {
+    margin-bottom: 66px;
+}
+.btn_three {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(315deg, #292929 50%, transparent 50%);
+    background-image: -o-linear-gradient(315deg, #292929 50%, transparent 50%);
+    background-image: linear-gradient(135deg, #292929 50%, transparent 50%);
+    background-size: 300% 300%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    padding: 15px 55px;
+    cursor: pointer;
+    border: 1px solid #292929;
+    display: inline-block;
+    margin-top: 50px;
+}
+.btn_three:hover {
+    background-size: 0px 50px;
+    background-position: -50px -50px;
+    color: #292929;
+}
+.job_info {
+    border: 1px solid #cdcdcd;
+}
+.job_info .info_head {
+    border-bottom: 1px solid #cdcdcd;
+}
+.pl_70 {
+    padding-left: 70px;
+}
+.job_info .info_item h6 {
+    font-size: 18px;
+    color: #222d39;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.job_info .info_head i {
+    color: #ff3366;
+    text-shadow: none;
+}
+.job_info .info_item i {
+    color: #ff3366;
+    top: 0;
+}
+.info_head h6 {
+    color: #222d39;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.details_content {
+    border-bottom: 1px solid #eeebf6;
+}
+
+.job_listing .listing_tab .list_item .joblisting_text .jobsearch-job-userlist .apply_btn,
+header.header.header_style_one .navbar .header_menu ul li.nav-item a.nav-link {
+    font-weight: 400;
+}
+
+header.header.header_style_one.fixedMenu .navbar .header_menu ul li.nav-item a.nav-link,
+header.header.header_style_one.fixedMenu .navbar .header_menu ul li.nav-item a.nav-link {
+    color: #292929;
+}
+
+header.header.header_style_one.fixedMenu .navbar .header_menu ul li.nav-item a.nav-link::before,
+header.header.header_style_one.fixedMenu .navbar .header_menu ul li.nav-item a.nav-link::before {
+    background: #292929;
+}
+
+header.header.header_style_one.fixedMenu .navbar .header_menu ul li.nav-item:hover a.nav-link::before,
+header.header.header_style_one.fixedMenu .navbar .header_menu ul li.nav-item.active a.nav-link::before {
+    background: #ff3366;
+}
+
+header.header.header_style_one.fixedMenu .navbar .header_menu ul li.nav-item:hover a.nav-link,
+header.header.header_style_one.fixedMenu .navbar .header_menu ul li.nav-item.active a.nav-link {
+    color: #ff3366;
+}
+
+.job_listing .listing_tab .item {
+    width: 100%;
+}
+
+.job_listing .joblist_title {
+    color: #222d39;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 35px;
+}
+
+header.header.header_style_one .navbar .header_menu ul li.nav-item a.nav-link {
+    font-size: 16px;
+}
+
+.job_info .info_item i {
+    top: 5px;
+}
+
+.job_listing {
+    padding-top: 0;
+}
+
+.job_listing .listing_tab .list_item figure {
+    margin-right: 25px;
+}
+
+.job_listing .listing_tab .list_item figure {
+    margin-right: 25px !important;
+}
+
+header.header.menu_open .sub_footer {
+    display: block;
+}
+
+.apply_form input[type="tel"],
+.apply_form input[type="email"] {
+    border-radius: 0;
+    background-color: white;
+    font: 300 15px/60px "Poppins", sans-serif;
+    color: #9ca3b9;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    border: 1px solid #c1c1c1;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.apply_form input[type="email"]:focus {
+    border-color: #ff3366;
+}
+
+.file_upload .upload_item label {
+    border: 1px dashed #909090;
+}
+
+header.header.header_style_one .navbar .header_menu .filix_action_btn {
+    font-size: 16px;
+}
+
+.portfolio_single_content li a {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    max-width: 150px;
+    height: 21px;
+    overflow: hidden;
+}
+
+.portfolio_single_content li a:hover span + span {
+    top: 0;
+}
+
+.portfolio_single_content li a:hover span {
+    top: -100%;
+    color: #171819;
+}
+.portfolio_single_content li a span + span {
+    top: 100%;
+}
+.portfolio_single_content li a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/**=== Portfolio Filter ===**/
+.portfolio_filter .work_portfolio_item.active, .portfolio_filter .work_portfolio_item:hover {
+    color: #ff3366;
+}
+#portfolio_filter {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.portfolio_filter .work_portfolio_item {
+    font: 400 16px/22px "Poppins", sans-serif;
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    position: relative;
+    cursor: pointer;
+}
+.portfolio_filter .work_portfolio_item.active:before, .portfolio_filter .work_portfolio_item:hover:before {
+    width: 100%;
+    background: #ff3366;
+    right: auto;
+    left: 0;
+}
+.portfolio_filter .work_portfolio_item:before {
+    content: "";
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    background: transparent;
+    position: absolute;
+    left: auto;
+    right: 0;
+    -webkit-transition: width 0.3s linear;
+    -o-transition: width 0.3s linear;
+    transition: width 0.3s linear;
+}
+.portfolio_filter .work_portfolio_item + .work_portfolio_item {
+    margin-left: 60px;
+}
+/**=== Mobile Menu Action Button ===**/
+header.header.header_style_one .navbar .header_menu .filix_action_btn.mobile_menu {
+    font-size: 18px;
+    display: inline-block;
+}
+/**=== Underscore Show hide ===**/
+.underscore_show_hide::before {
+    display: none !important;
+}
+header.header.header_style_one.fixedMenu .navbar-brand.sticky-logo img + img {
+    display: block;
+}
+header.header.header_style_one.fixedMenu .navbar-brand.sticky-logo img {
+    display: none;
+}
+.sticky-logo img + img {
+    display: none;
+}
+

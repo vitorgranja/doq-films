@@ -1,0 +1,36 @@
+----- 1.2.5 (27 August 2020) -----
+Fixed: Color picker issue in WordPress 5.5
+Updated: Language file (.pot file)
+
+----- 1.2.4 (18 December 2019) -----
+New: Version changelog notice upon the theme update/activation
+Fixed: Hero (Particle style)
+Tweaked: Theme Settings > Header Settings > Logo (some custom options are added for text logo)
+Updated: ACF plugin
+
+----- 1.2.3 (24 September 2019) -----
+Fixed: Menu
+
+----- 1.2.2 (12 September 2019) -----
+Tweaked: Dropdown Menu Support added
+Tweaked: Hero Section (Particles Color filed added)
+
+----- 1.2.1 (30 August 2019) -----
+Tweaked: Testimonial Elementor Widget
+Tweaked: Show/Hide Option added for Title Appended Underscore
+Fixed: Logo Option in Theme Settings page
+
+----- 1.2.0 (26 July 2019) -----
+Fixed: A JavaScript console error
+Tweaked: Section Padding control added to Elementor Widgets
+New: Filterable Portfolio
+New: Colors and Typography Settings
+Updated: Demo Contents
+
+----- 1.1.0 (26 July 2019) -----
+Tweaked: The design of the theme.
+Updated: Demo Contents
+
+----- 1.0.0 (19 July 2019) -----
+Fixed: Initial elements
+New: Job Listing, Job Details, Job Apply and Request pages
